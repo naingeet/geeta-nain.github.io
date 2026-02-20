@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hurricane Dynamics | AI-Driven Earth System Modeling | Extreme-Scale Computing">
+        <meta name="description" content="Hurricane Dynamics | Physics-Informed AI | Extreme-Scale Computing">
       
       
         <meta name="author" content="Geeta Nain">
@@ -14,7 +14,7 @@
       
       
       
-        <link rel="next" href="hurricane/">
+        <link rel="next" href="HurricaneHazModeling/">
       
       
         
@@ -46,10 +46,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Fira Code"}</style>
       
     
+    
+      <link rel="stylesheet" href="styles/extra.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -62,10 +64,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan">
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -74,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#geeta-nain" class="md-skip">
+        <a href="#research-focus" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +120,19 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -204,7 +220,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="hurricane/" class="md-tabs__link">
+        <a href="HurricaneHazModeling/" class="md-tabs__link">
           
   
   
@@ -247,7 +263,7 @@
   
     
   
-  HPC & Software
+  Software & HPC
 
       </a>
     </li>
@@ -312,7 +328,9 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="Geeta Nain" class="md-nav__button md-logo" aria-label="Geeta Nain" data-md-component="logo">
       
@@ -337,8 +355,6 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
-      
-        
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
@@ -382,8 +398,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -392,10 +406,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#hurricane-dynamics-physics-informed-ai-extreme-scale-computing" class="md-nav__link">
+  <a href="#research-focus" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hurricane Dynamics | Physics-Informed AI | Extreme-Scale Computing
+        Research Focus
       
     </span>
   </a>
@@ -403,10 +417,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#about-me" class="md-nav__link">
+  <a href="#vision" class="md-nav__link">
     <span class="md-ellipsis">
       
-        About Me
+        Vision
       
     </span>
   </a>
@@ -414,10 +428,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#research-vision" class="md-nav__link">
+  <a href="#current-work" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Research Vision
+        Current Work
       
     </span>
   </a>
@@ -425,32 +439,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#current-focus" class="md-nav__link">
+  <a href="#collaboration-areas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Current Focus
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#selected-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Selected Work
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lets-collaborate" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Let’s Collaborate
+        Collaboration Areas
       
     </span>
   </a>
@@ -524,7 +516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hurricane/" class="md-nav__link">
+      <a href="HurricaneHazModeling/" class="md-nav__link">
         
   
   
@@ -552,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/" class="md-nav__link">
+      <a href="modeling_AI.md" class="md-nav__link">
         
   
   
@@ -580,14 +572,42 @@
   
   
     <li class="md-nav__item">
-      <a href="coupled/" class="md-nav__link">
+      <a href="CoupledOceanWaveAtm.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Coupled Ocean-Atmosphere
+    Coupled Ocean–Atmosphere
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CycloneCast/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CycloneCast
   
 
     
@@ -649,7 +669,7 @@
   <span class="md-ellipsis">
     
   
-    HPC & Software
+    Software & HPC
   
 
     
@@ -723,98 +743,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#hurricane-dynamics-physics-informed-ai-extreme-scale-computing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hurricane Dynamics | Physics-Informed AI | Extreme-Scale Computing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about-me" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        About Me
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#research-vision" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Research Vision
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#current-focus" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Current Focus
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#selected-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Selected Work
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lets-collaborate" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Let’s Collaborate
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -825,50 +753,50 @@
 
 
 
-<h1 id="geeta-nain">Geeta Nain<a class="headerlink" href="#geeta-nain" title="Permanent link">&para;</a></h1>
-<h3 id="hurricane-dynamics-physics-informed-ai-extreme-scale-computing">Hurricane Dynamics | Physics-Informed AI | Extreme-Scale Computing<a class="headerlink" href="#hurricane-dynamics-physics-informed-ai-extreme-scale-computing" title="Permanent link">&para;</a></h3>
+  <h1>Home</h1>
+
+<div class="hero">
+
+# Geeta Nain
+
+### Physics-Informed AI for Hurricane Hazard Modeling  
+### Extreme-Scale Earth System Simulation
+
+</div>
+
 <hr />
-<h2 id="about-me">About Me<a class="headerlink" href="#about-me" title="Permanent link">&para;</a></h2>
-<p>I am a computational scientist working at the intersection of:</p>
+<h2 id="research-focus">Research Focus</h2>
+<p>I develop computational frameworks that integrate:</p>
 <ul>
-<li>Tropical Cyclone Wind Structure Modeling</li>
-<li>Physics-Informed Machine Learning</li>
-<li>Coupled Ocean–Atmosphere Modeling</li>
-<li>Extreme-Scale HPC Simulation</li>
-</ul>
-<p>My research integrates parametric hurricane models with AI-enhanced physical constraints to enable rapid, large-ensemble hazard assessment.</p>
-<hr />
-<h2 id="research-vision">Research Vision<a class="headerlink" href="#research-vision" title="Permanent link">&para;</a></h2>
-<p>To build physically consistent, AI-accelerated Earth-system modeling frameworks capable of:</p>
-<ul>
-<li>Capturing storm-scale dynamics</li>
-<li>Scaling to exascale computing</li>
-<li>Enabling real-time coastal risk prediction</li>
-</ul>
-<hr />
-<h2 id="current-focus">Current Focus<a class="headerlink" href="#current-focus" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Wind field structural bias correction</li>
-<li>Rossby scaling diagnostics</li>
-<li>Parametric–Coupled hybrid modeling</li>
-<li>AI-guided physical consistency constraints</li>
+<li>Parametric hurricane wind modeling</li>
+<li>Physics-constrained machine learning</li>
+<li>Coupled ocean–atmosphere dynamics</li>
+<li>Large-ensemble hazard simulation at HPC scale</li>
 </ul>
 <hr />
-<h2 id="selected-work">Selected Work<a class="headerlink" href="#selected-work" title="Permanent link">&para;</a></h2>
+<h2 id="vision">Vision</h2>
+<p>To build AI-accelerated, physically consistent Earth-system models that enable:</p>
 <ul>
-<li>Parametric hurricane wind reconstruction</li>
-<li>Coupled ADCIRC surge footprint modeling</li>
-<li>AI-enhanced intensity scaling</li>
-<li>Large-ensemble wind hazard simulation</li>
+<li>Rapid coastal risk prediction</li>
+<li>Structural wind field correction</li>
+<li>Scalable extreme-event ensemble forecasting</li>
+<li>Next-generation climate-risk intelligence</li>
 </ul>
 <hr />
-<h2 id="lets-collaborate">Let’s Collaborate<a class="headerlink" href="#lets-collaborate" title="Permanent link">&para;</a></h2>
-<p>I welcome collaborations in:</p>
+<h2 id="current-work">Current Work</h2>
 <ul>
-<li>AI for climate &amp; hazard modeling</li>
-<li>Extreme-scale simulation</li>
-<li>Coastal risk assessment</li>
-<li>Earth-system foundation models</li>
+<li>Rossby-scaling diagnostics</li>
+<li>Wind field structural bias analysis</li>
+<li>Hybrid parametric–ML modeling</li>
+<li>Distributed ensemble simulation</li>
+</ul>
+<hr />
+<h2 id="collaboration-areas">Collaboration Areas</h2>
+<ul>
+<li>AI for climate &amp; hazard systems</li>
+<li>Coastal surge + wind coupling</li>
+<li>Exascale computing applications</li>
+<li>Foundation models for Earth systems</li>
 </ul>
 
 
@@ -925,7 +853,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy", "content.code.annotate", "toc.integrate", "header.autohide"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>

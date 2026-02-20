@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hurricane Dynamics | AI-Driven Earth System Modeling | Extreme-Scale Computing">
+        <meta name="description" content="Hurricane Dynamics | Physics-Informed AI | Extreme-Scale Computing">
       
       
         <meta name="author" content="Geeta Nain">
@@ -48,10 +48,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Fira Code"}</style>
       
     
+    
+      <link rel="stylesheet" href="../styles/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -64,16 +66,23 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan">
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#geeta-nain" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -113,7 +122,19 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -199,7 +220,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../hurricane/" class="md-tabs__link">
+        <a href="../HurricaneHazModeling/" class="md-tabs__link">
           
   
   
@@ -242,7 +263,7 @@
   
     
   
-  HPC & Software
+  Software & HPC
 
       </a>
     </li>
@@ -309,7 +330,9 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Geeta Nain" class="md-nav__button md-logo" aria-label="Geeta Nain" data-md-component="logo">
       
@@ -408,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hurricane/" class="md-nav__link">
+      <a href="../HurricaneHazModeling/" class="md-nav__link">
         
   
   
@@ -436,7 +459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ai/" class="md-nav__link">
+      <a href="../modeling_AI.md" class="md-nav__link">
         
   
   
@@ -464,14 +487,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../coupled/" class="md-nav__link">
+      <a href="../CoupledOceanWaveAtm.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Coupled Ocean-Atmosphere
+    Coupled Ocean–Atmosphere
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CycloneCast/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CycloneCast
   
 
     
@@ -533,7 +584,7 @@
   <span class="md-ellipsis">
     
   
-    HPC & Software
+    Software & HPC
   
 
     
@@ -559,6 +610,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CV
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -576,6 +647,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#research-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Focus
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -615,22 +716,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -641,9 +726,142 @@
 
 
 
-  <h1>CV</h1>
-
-
+<p><a href="assets/Geeta_Nain_CV.pdf">Download Full CV (PDF)</a></p>
+<h1 id="geeta-nain">Geeta Nain</h1>
+<p><strong>Atmospheric Scientist | Hurricane Hazard Modeling | Physics-Informed AI | Extreme-Scale Computing</strong></p>
+<p>📧 gnain@mtu.edu<br />
+📞 +1 (510) 361-7181<br />
+🔗 <a href="https://www.linkedin.com/in/geeta-nain">LinkedIn</a><br />
+🌐 <a href="https://geetanain.academia.edu/">Academia</a>  </p>
+<hr />
+<h2 id="research-focus">Research Focus</h2>
+<p>Catastrophe risk modeling with emphasis on:</p>
+<ul>
+<li>Hurricane wind structure modeling  </li>
+<li>Parametric–numerical–machine learning integration  </li>
+<li>Ocean–wave–atmosphere coupling  </li>
+<li>Probabilistic hazard assessment  </li>
+<li>Extreme-scale HPC simulation  </li>
+</ul>
+<hr />
+<h1 id="education">Education</h1>
+<h3 id="phd-in-atmospheric-science-expected-summer-2026">Ph.D. in Atmospheric Science (Expected Summer 2026)</h3>
+<p><strong>Michigan Technological University (MTU)</strong><br />
+Graduate Research Fellowship – Argonne National Laboratory  </p>
+<p>Dissertation:<br />
+<em>Advancing Hurricane Wind Modeling: Parametric Evaluation, Ocean–Wave Interactions, and Machine Learning–Based Bias Correction</em></p>
+<hr />
+<h3 id="professional-masters-in-geodata-science-2022">Professional Master’s in Geodata Science (2022)</h3>
+<p><strong>Purdue University</strong><br />
+Certification: Computational Interdisciplinary Graduate Program (CIGP) – Computational Sciences &amp; Engineering  </p>
+<hr />
+<h3 id="mtech-in-earth-system-science-technology-2014">M.Tech in Earth System Science &amp; Technology (2014)</h3>
+<p><strong>Indian Institute of Technology (IIT) Kharagpur</strong><br />
+Thesis: Statistical Downscaling for Indian Summer Monsoon Rainfall  </p>
+<hr />
+<h3 id="btech-in-aeronautical-engineering-2012">B.Tech in Aeronautical Engineering (2012)</h3>
+<p><strong>Babu Banarasi Das National Institute of Technology, Lucknow</strong><br />
+Thesis: Modeling trajectory of a launched vehicle considering point mass assumption  </p>
+<hr />
+<h1 id="research-professional-experience">Research &amp; Professional Experience</h1>
+<h2 id="graduate-predoctoral-research-appointee">Graduate &amp; Predoctoral Research Appointee</h2>
+<p><strong>Argonne National Laboratory (ANL), IL</strong> | 2022–Present  </p>
+<ul>
+<li>Investigating ocean–wave–atmosphere interactions using high-resolution coupled WRF–FVCOM–SWAN (C-WFS) simulations  </li>
+<li>Conducting simulations on HPC systems at the Argonne Leadership Computing Facility (ALCF)  </li>
+<li>Developing blended parametric–numerical wind fields  </li>
+<li>Implementing MPI-based parallelization for storm surge simulations  </li>
+<li>Evaluating TC-induced storm surge risk using probabilistic hazard models  </li>
+<li>Offshore wind energy risk assessment under extreme hurricane conditions  </li>
+</ul>
+<hr />
+<h2 id="phd-research-collaboration-with-anl">PhD Research Collaboration with ANL</h2>
+<p><strong>Michigan Technological University (MTU)</strong> | 2024–2026  </p>
+<ul>
+<li>Evaluated structural biases in parametric hurricane wind models  </li>
+<li>Investigated ocean–wave feedback impacts on hurricane wind structure  </li>
+<li>Developing physics-informed ML wind fusion tool  </li>
+<li>Integrating coupled model insights into bias correction frameworks  </li>
+</ul>
+<hr />
+<h2 id="research-assistant">Research Assistant</h2>
+<p><strong>Purdue University</strong> | 2018–2022  </p>
+<ul>
+<li>Developed synthetic tropical cyclone track generation models  </li>
+<li>Integrated dynamic steering flow and statistical ensembles  </li>
+<li>Collaborated with NCAR RAL on Hurricane Risk Calculator  </li>
+<li>Blended WRF simulations, synthetic tracks, and parametric wind models  </li>
+<li>Assessed mid-century hurricane surge risk using Argonne EVS workflows  </li>
+</ul>
+<hr />
+<h2 id="senior-modeling-analyst">Senior Modeling Analyst</h2>
+<p><strong>Moody’s RMS (Risk Management Solutions), India</strong> | 2014–2018  </p>
+<ul>
+<li>Calibrated North Atlantic &amp; Asia-Pacific tropical cyclone hazard modules  </li>
+<li>Simulated storm surge and wind fields using MIKE21  </li>
+<li>Applied MPI-based parallel processing  </li>
+<li>Generated return-period inundation maps  </li>
+<li>Quantified hazard portfolio uncertainty  </li>
+</ul>
+<hr />
+<h1 id="technical-skills">Technical Skills</h1>
+<h3 id="modeling-systems">Modeling Systems</h3>
+<p>C-WFS (WRF–FVCOM–SWAN), ADCIRC, MIKE21, CLIMADA  </p>
+<h3 id="programming">Programming</h3>
+<p>Python, R, Fortran, MATLAB, NCL, Bash  </p>
+<h3 id="machine-learning">Machine Learning</h3>
+<p>Neural Networks, PyTorch, TensorFlow  </p>
+<h3 id="hpc-version-control">HPC &amp; Version Control</h3>
+<p>Git, GitHub, SLURM, MPI, Argonne Leadership Computing Facility (Polaris)  </p>
+<h3 id="visualization-forecast-tools">Visualization &amp; Forecast Tools</h3>
+<p>MetPlus, AWIPS, GEMPAK, RiskLink  </p>
+<h3 id="gis-data-systems">GIS &amp; Data Systems</h3>
+<p>ArcGIS, QGIS, SQL, NoSQL  </p>
+<hr />
+<h1 id="selected-publications-presentations">Selected Publications &amp; Presentations</h1>
+<h3 id="2026">2026</h3>
+<ul>
+<li>Nain, G., et al. (2026). <em>Bias Propagation from Parametric Wind Models to Storm Surge Estimates in Tropical Cyclones.</em> (Manuscript prepared for GRL)  </li>
+<li>Nain, G., et al. (2026). <em>Coupled Ocean–Wave–Atmosphere Feedbacks Shaping Wind Structure of Hurricane Delta (2020).</em> 37th Conference on Hurricanes and Tropical Meteorology  </li>
+<li>Nain, G., et al. (2026). <em>Leveraging Synthetic Aperture Radar and ML to Refine Tropical Cyclone Surface Winds.</em> 37th Conference on Hurricanes and Tropical Meteorology  </li>
+</ul>
+<h3 id="2025">2025</h3>
+<ul>
+<li>Ocean and Wave-Induced Feedback on Hurricane Wind Structure – NAWEA/WindTech  </li>
+<li>Fully Coupled Atmosphere–Ocean–Wave Simulations of Hurricane Henri (2021) – Wind Energy Science  </li>
+<li>Large-Scale Control of Extreme TC Seasons – 105th AMS Annual Meeting  </li>
+</ul>
+<h3 id="2024">2024</h3>
+<ul>
+<li>Parametric Wind Forcing Impacts on Modeled Storm Surge – AGU Fall Meeting  </li>
+<li>Hurricane-Induced Extreme Winds at Turbine Hub Height – AGU Fall Meeting  </li>
+<li>Dynamic Steering Flow Track Uncertainty – Atmospheric &amp; Oceanic Fluid Dynamics  </li>
+</ul>
+<h3 id="20232022">2023–2022</h3>
+<p>Multiple AGU and AMS conference presentations on:
+- Synthetic track physical consistency<br />
+- Surge risk sensitivity<br />
+- Verification metrics<br />
+- Hurricane Risk Calculator development  </p>
+<hr />
+<h1 id="leadership-awards">Leadership &amp; Awards</h1>
+<ul>
+<li>Professional Development Chair, Graduate Student Government, Michigan Tech (2025–2026)  </li>
+<li>Top 10 Semi-Finalist, 3MT Thesis Competition (2024, 2025)  </li>
+<li>First Place, Graduate Research Colloquium Poster Competition (2025)  </li>
+<li>Outstanding Graduate Award, GeoData Science, Purdue University (2022)  </li>
+<li>Distinguished Toastmaster (DTM), Toastmasters International (2018)  </li>
+</ul>
+<hr />
+<h1 id="research-identity">Research Identity</h1>
+<p>My research integrates:</p>
+<ul>
+<li>Parametric hurricane theory  </li>
+<li>Coupled numerical modeling  </li>
+<li>Physics-informed machine learning  </li>
+<li>Extreme-scale ensemble simulation  </li>
+</ul>
+<p>with the goal of enabling <strong>physically consistent, AI-accelerated hurricane hazard prediction frameworks.</strong></p>
 
 
 
@@ -699,7 +917,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy", "content.code.annotate", "toc.integrate", "header.autohide"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
