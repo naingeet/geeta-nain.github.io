@@ -1,55 +1,48 @@
+<div class="hero">
+
 # Geeta Nain
 
-### Hurricane Dynamics | Physics-Informed AI | Extreme-Scale Computing
+### Physics-Informed AI for Hurricane Hazard Modeling  
+### Extreme-Scale Earth System Simulation
+
+</div>
 
 ---
 
-## About Me
+## Research Focus
 
-I am a computational scientist working at the intersection of:
+I develop computational frameworks that integrate:
 
-- Tropical Cyclone Wind Structure Modeling
-- Physics-Informed Machine Learning
-- Coupled Ocean–Atmosphere Modeling
-- Extreme-Scale HPC Simulation
-
-My research integrates parametric hurricane models with AI-enhanced physical constraints to enable rapid, large-ensemble hazard assessment.
+- Parametric hurricane wind modeling
+- Physics-constrained machine learning
+- Coupled ocean–atmosphere dynamics
+- Large-ensemble hazard simulation at HPC scale
 
 ---
 
-## Research Vision
+## Vision
 
-To build physically consistent, AI-accelerated Earth-system modeling frameworks capable of:
+To build AI-accelerated, physically consistent Earth-system models that enable:
 
-- Capturing storm-scale dynamics
-- Scaling to exascale computing
-- Enabling real-time coastal risk prediction
-
----
-
-## Current Focus
-
-- Wind field structural bias correction
-- Rossby scaling diagnostics
-- Parametric–Coupled hybrid modeling
-- AI-guided physical consistency constraints
+- Rapid coastal risk prediction
+- Structural wind field correction
+- Scalable extreme-event ensemble forecasting
+- Next-generation climate-risk intelligence
 
 ---
 
-## Selected Work
+## Current Work
 
-- Parametric hurricane wind reconstruction
-- Coupled ADCIRC surge footprint modeling
-- AI-enhanced intensity scaling
-- Large-ensemble wind hazard simulation
+- Rossby-scaling diagnostics
+- Wind field structural bias analysis
+- Hybrid parametric–ML modeling
+- Distributed ensemble simulation
 
 ---
 
-## Let’s Collaborate
+## Collaboration Areas
 
-I welcome collaborations in:
-
-- AI for climate & hazard modeling
-- Extreme-scale simulation
-- Coastal risk assessment
-- Earth-system foundation models
+- AI for climate & hazard systems
+- Coastal surge + wind coupling
+- Exascale computing applications
+- Foundation models for Earth systems
