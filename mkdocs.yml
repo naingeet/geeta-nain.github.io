@@ -1,0 +1,30 @@
+site_name: Geeta Nain
+site_description: Hurricane Dynamics | AI-Driven Earth System Modeling | Extreme-Scale Computing
+site_author: Geeta Nain
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Research:
+      - Hurricane Wind Structure: hurricane.md
+      - AI Modeling Framework: ai.md
+      - Coupled Ocean-Atmosphere: coupled.md
+  - Publications: publications.md
+  - HPC & Software: software.md
+  - CV: cv.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
