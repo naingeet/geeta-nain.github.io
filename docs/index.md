@@ -1,9 +1,7 @@
 <div class="hero">
 
-# Geeta Nain
+Geeta Nain
 
-### Physics-Informed AI for Hurricane Hazard Modeling  
-### Extreme-Scale Earth System Simulation
 
 </div>
 
