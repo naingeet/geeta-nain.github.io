@@ -1,0 +1,32 @@
+# Contact
+
+## Email
+📧 gnain@mtu.edu  
+
+## GitHub
+🔗 https://github.com/naingeet
+
+## Google Scholar
+🔗 https://scholar.google.com/citations?user=XXXX  
+
+## LinkedIn
+🔗 https://www.linkedin.com/in/geeta-nain/ 
+
+---
+
+## Collaboration Interests
+
+I welcome collaboration in:
+
+- AI-driven Earth system modeling  
+- Hurricane hazard prediction  
+- Coastal surge + wind coupling  
+- Extreme-scale computational science  
+
+---
+
+## Office / Affiliation
+
+Department Name  
+University Name  
+City, State
