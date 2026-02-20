@@ -1,3 +1,6 @@
+!!! info "Let’s Connect"
+    I am open to research collaborations, invited talks, and interdisciplinary AI-climate initiatives.
+
 # Contact
 
 ## Email
@@ -7,7 +10,7 @@
 🔗 https://github.com/naingeet
 
 ## Google Scholar
-🔗 https://scholar.google.com/citations?user=XXXX  
+#🔗 https://scholar.google.com/citations?user=XXXX  
 
 ## LinkedIn
 🔗 https://www.linkedin.com/in/geeta-nain/ 
@@ -27,6 +30,6 @@ I welcome collaboration in:
 
 ## Office / Affiliation
 
-Department Name  
-University Name  
-City, State
+CEGE  
+Michigan Tech  
+Houghton, MI
